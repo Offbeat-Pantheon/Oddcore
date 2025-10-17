@@ -1,0 +1,13 @@
+{
+  "itemGroup.oddcore": "Example Mod Tab",
+  "block.oddcore.example_block": "Example Block",
+  "item.oddcore.example_item": "Example Item",
+
+  "oddcore.configuration.title": "Oddcore Configs",
+  "oddcore.configuration.section.oddcore.common.toml": "Oddcore Configs",
+  "oddcore.configuration.section.oddcore.common.toml.title": "Oddcore Configs",
+  "oddcore.configuration.items": "Item List",
+  "oddcore.configuration.logDirtBlock": "Log Dirt Block",
+  "oddcore.configuration.magicNumberIntroduction": "Magic Number Text",
+  "oddcore.configuration.magicNumber": "Magic Number"
+}
