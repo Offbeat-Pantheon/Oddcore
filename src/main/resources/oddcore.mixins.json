@@ -2,7 +2,9 @@
   "required": true,
   "package": "net.pantheon.oddcore.mixin",
   "compatibilityLevel": "JAVA_21",
-  "mixins": [],
+  "mixins": [
+    "NoisedBasedChunkGeneratorMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   },
