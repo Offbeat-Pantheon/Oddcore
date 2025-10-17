@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "textures": {
+    "layer0": "oddcore:item/electrum_lance_gui"
+  },
+  "base": {
+    "parent": "oddcore:item/electrum_lance_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "oddcore:item/electrum_lance_gui"
+    },
+    "fixed": {
+      "parent": "oddcore:item/electrum_lance_gui"
+    }
+  }
+}

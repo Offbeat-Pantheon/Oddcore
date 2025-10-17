@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "oddcore:item/electrum_horse_armor"
+  }
+}

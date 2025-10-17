@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "textures": {
+    "layer0": "oddcore:item/anchorblade_gui"
+  },
+  "base": {
+    "parent": "oddcore:item/anchorblade_handheld"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "oddcore:item/anchorblade_gui"
+    },
+    "fixed": {
+      "parent": "oddcore:item/anchorblade_gui"
+    }
+  }
+}

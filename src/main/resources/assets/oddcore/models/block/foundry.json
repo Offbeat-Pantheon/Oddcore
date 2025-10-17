@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "oddcore:block/foundry_front",
+    "side": "oddcore:block/foundry_side",
+    "top": "oddcore:block/foundry_top",
+    "bottom":"oddcore:block/foundry_bottom"
+  }
+}

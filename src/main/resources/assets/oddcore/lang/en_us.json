@@ -1,13 +1,12 @@
 {
-  "itemGroup.oddcore": "Example Mod Tab",
-  "block.oddcore.example_block": "Example Block",
-  "item.oddcore.example_item": "Example Item",
+  "block.oddcore.gunmetal_block": "Block of Gunmetal",
+  "item.oddcore.anchorblade": "Anchorblade",
+  "item.oddcore.anchorblade_bolt": "Bolted Anchorblade",
+  "item.oddcore.electrum_lance": "Electrum Lance",
+  "item.oddcore.smithing_template.bolted_upgrade.additions_slot_description": "Add Cinnabar",
+  "item.oddcore.smithing_template.bolted_upgrade.applies_to": "Anchorblade",
+  "item.oddcore.smithing_template.bolted_upgrade.ingredients": "Cinnabar",
+  "upgrade.oddcore.bolted_upgrade": "Bolted Upgrade"
 
-  "oddcore.configuration.title": "Oddcore Configs",
-  "oddcore.configuration.section.oddcore.common.toml": "Oddcore Configs",
-  "oddcore.configuration.section.oddcore.common.toml.title": "Oddcore Configs",
-  "oddcore.configuration.items": "Item List",
-  "oddcore.configuration.logDirtBlock": "Log Dirt Block",
-  "oddcore.configuration.magicNumberIntroduction": "Magic Number Text",
-  "oddcore.configuration.magicNumber": "Magic Number"
+
 }

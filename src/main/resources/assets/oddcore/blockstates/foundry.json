@@ -1,0 +1,66 @@
+{
+  "variants": {
+    "facing=east,lit=false,open=false": {
+      "model": "oddcore:block/foundry",
+      "y": 90
+    },
+    "facing=east,lit=true,open=false": {
+      "model": "oddcore:block/foundry_on",
+      "y": 90
+    },
+    "facing=east,lit=false,open=true": {
+      "model": "oddcore:block/foundry_open",
+      "x": 90,
+      "y": 90
+    },
+    "facing=east,lit=true,open=true": {
+      "model": "oddcore:block/foundry_open_on",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north,lit=false,open=false": {
+      "model": "oddcore:block/foundry"
+    },
+    "facing=north,lit=true,open=false": {
+      "model": "oddcore:block/foundry_on"
+    },
+    "facing=north,lit=false,open=true": {
+      "model": "oddcore:block/foundry_open"
+    },
+    "facing=north,lit=true,open=true": {
+      "model": "oddcore:block/foundry_open_on"
+    },
+    "facing=south,lit=false,open=false": {
+      "model": "oddcore:block/foundry",
+      "y": 180
+    },
+    "facing=south,lit=true,open=false": {
+      "model": "oddcore:block/foundry_on",
+      "y": 180
+    },
+    "facing=south,lit=false,open=true": {
+      "model": "oddcore:block/foundry_open",
+      "y": 180
+    },
+    "facing=south,lit=true,open=true": {
+      "model": "oddcore:block/foundry_open_on",
+      "y": 180
+    },
+    "facing=west,lit=false,open=false": {
+      "model": "oddcore:block/foundry",
+      "y": 270
+    },
+    "facing=west,lit=true,open=false": {
+      "model": "oddcore:block/foundry_on",
+      "y": 270
+    },
+    "facing=west,lit=false,open=true": {
+      "model": "oddcore:block/foundry_open",
+      "y": 270
+    },
+    "facing=west,lit=true,open=true": {
+      "model": "oddcore:block/foundry_open_on",
+      "y": 270
+    }
+  }
+}
