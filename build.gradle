@@ -2,7 +2,6 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'net.neoforged.moddev' version '2.0.115'
-    id 'net.neoforged.gradle.mixin' version '7.0.145'
     id 'idea'
 }
 
@@ -20,10 +19,6 @@ group = mod_group_id
 
 repositories {
     // Add here additional repositories if required by some of the dependencies below.
-}
-
-mixin {
-    config 'mixins.oddcore.json'
 }
 
 base {
@@ -138,6 +133,7 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    include(implementation(annotationProcessor("io.github.llamalad7:mixinextras-neoforge:0.5.0")))
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.
