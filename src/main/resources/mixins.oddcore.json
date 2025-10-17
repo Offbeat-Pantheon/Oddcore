@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "net.pantheon.oddcore.mixin",
-  "refmap": "mixins.oddcore.refmep.json",
+  "refmap": "mixins.oddcore.refmap.json",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "NoisedBasedChunkGeneratorMixin"
