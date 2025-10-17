@@ -19,10 +19,10 @@ public class NoiseBasedChunkGeneratorMixin {
             cancellable = true
     )
     private static void createFluidPicker(NoiseGeneratorSettings settings, CallbackInfoReturnable<Aquifer.FluidPicker> cir) {
-        Aquifer.FluidStatus air = new Aquifer.FluidStatus(-50, Blocks.AIR.defaultBlockState());
+        Aquifer.FluidStatus air = new Aquifer.FluidStatus(-150, Blocks.AIR.defaultBlockState());
         int seaLevel = settings.seaLevel();
         Aquifer.FluidStatus water = new Aquifer.FluidStatus(seaLevel, settings.defaultFluid());
         cir.setReturnValue((var1, var2, var3) -> 
-            var2 < Math.min(-50, seaLevel) ? air : water);
+            var2 < Math.min(-150, seaLevel) ? air : water);
     }
 }
