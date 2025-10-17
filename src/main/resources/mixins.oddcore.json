@@ -1,15 +1,14 @@
 {
-  "required": true,
+  "required": true,  
   "package": "net.pantheon.oddcore.mixin",
-  "refmap": "mixins.oddcore.refmap.json",
   "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+  ],
   "mixins": [
     "NoisedBasedChunkGeneratorMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-  },
-  "overwrites": {
-    "requireAnnotations": true
   }
 }
