@@ -21,6 +21,7 @@ public class OddcoreClient {
         // Do not forget to add translations for your config options to the en_us.json file.
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
     }
+    public static final String MODID = "oddcore";
 
     @SubscribeEvent
     static void onClientSetup(FMLClientSetupEvent event) {

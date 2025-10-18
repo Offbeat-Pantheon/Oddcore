@@ -39,7 +39,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 @Mod(Oddcore.MODID)
 public class Oddcore {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "oddcore ";
+    public static final String MODID = "oddcore";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
     // The constructor for the mod class is the first code that is run when your mod is loaded.
