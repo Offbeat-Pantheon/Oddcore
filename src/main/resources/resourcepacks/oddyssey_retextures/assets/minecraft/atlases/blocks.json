@@ -1,0 +1,20 @@
+{
+    "sources": [
+      {       
+        "type": "blueprint:paletted_permutations",      
+        "textures": [
+          "trims/items/helmet_trim",
+          "trims/items/chestplate_trim",
+          "trims/items/leggings_trim",
+          "trims/items/boots_trim"
+        ],
+        "palette_key": "trims/color_palettes/trim_palette",
+        "permutations": {
+          "echo": "minecraft:trims/color_palettes/echo",
+          "flint": "trims/color_palettes/flint"
+
+        }
+       
+      }
+    ]
+  }

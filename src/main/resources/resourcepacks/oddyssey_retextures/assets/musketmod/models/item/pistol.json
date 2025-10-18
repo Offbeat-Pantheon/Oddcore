@@ -1,0 +1,84 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "musketmod:item/flintlock_pistol"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                -103,
+                35
+            ],
+            "translation": [
+                1,
+                1,
+                -2.5
+            ],
+            "scale": [
+                0.85,
+                0.85,
+                0.85
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                77,
+                -35
+            ],
+            "translation": [
+                1,
+                1,
+                -2.5
+            ],
+            "scale": [
+                0.85,
+                0.85,
+                0.85
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                -90,
+                40
+            ],
+            "translation": [
+                2,
+                1,
+                -1
+            ],
+            "scale": [
+                0.45,
+                0.45,
+                0.45
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                90,
+                -40
+            ],
+            "translation": [
+                2,
+                1,
+                -1
+            ],
+            "scale": [
+                0.45,
+                0.45,
+                0.45
+            ]
+        }
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "musketmod:loaded": 1
+            },
+            "model": "musketmod:item/pistol_loaded"
+        }
+    ]
+}

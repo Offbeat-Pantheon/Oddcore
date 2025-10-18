@@ -1,0 +1,10 @@
+{
+    "targets": [
+        "newworld:fir_leaves"
+    ],
+   "tinted_breaking_particles": true,
+    "colormap": {
+    "0": "minecraft:foliage_color"
+  }
+
+}

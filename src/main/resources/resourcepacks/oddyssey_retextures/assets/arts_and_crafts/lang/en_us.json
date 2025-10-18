@@ -1,0 +1,15 @@
+{
+  "advancements.husbandry.circa_1980.description": "Obtain some bleachdew from a fully bloomed Lotus Flower!",
+  "advancements.husbandry.circa_1980.title": "Circa 1980",
+  "advancements.husbandry.let_the_past_bloom.description": "Interact with a lily pad using some Lotus Pistils",
+  "advancements.husbandry.let_the_past_bloom.title": "Let The Past Bloom!",
+
+  "block.arts_and_crafts.cork": "Cork",
+  "block.arts_and_crafts.smooth_cork": "Smooth Cork",
+
+  "block.arts_and_crafts.lotus_flower": "Lotus Flower",
+  "item.arts_and_crafts.bleachdew": "Bleachdew",
+  "item.arts_and_crafts.bleachdew_paintbrush": "Bleachdew Paintbrush",
+  "item.arts_and_crafts.lotus_pistils": "Lotus Pistils"
+  
+}

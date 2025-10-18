@@ -1,0 +1,6 @@
+{
+    "parent": "musketmod:item/musket_with_scope",
+    "textures": {
+        "layer0": "musketmod:item/flintlock_musket_scope_loaded"
+    }
+}

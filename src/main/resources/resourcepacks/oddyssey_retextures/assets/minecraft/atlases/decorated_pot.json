@@ -1,0 +1,21 @@
+{
+  "sources":[
+     {
+        "type":"blueprint:paletted_permutations",
+        "sources":[
+           {
+              "type":"minecraft:directory",
+              "prefix":"entity/decorated_pot_trim_patterns/",
+              "source":"entity/decorated_pot_trim_patterns"
+           }
+        ],
+        "palette_key":"clayworks:entity/decorated_pot_trim_palettes/trim_palette",
+        "permutations":{
+           "echo": "minecraft:entity/decorated_pot_trim_palettes/echo",
+           "flint": "minecraft:entity/decorated_pot_trim_palettes/flint"
+
+
+        }
+     }
+  ]
+}
