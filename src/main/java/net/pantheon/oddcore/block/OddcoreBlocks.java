@@ -26,6 +26,9 @@ public class OddcoreBlocks {
     public static final DeferredBlock<Block> GRIMSHALE = registerBlock("grimshale",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE)));
 
+//    public static final DeferredBlock<Block> PLATINUM_BLOCK = registerBlock("platinum_block",
+//            () -> new Block(BlockBehaviour.Properties.of()
+//                    .mapColor(MapColor.METAL).requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
 
 
 
