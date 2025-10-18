@@ -1,5 +1,6 @@
 package net.pantheon.oddcore;
 
+import net.pantheon.oddcore.block.OddcoreBlocks;
 import net.pantheon.oddcore.item.OddcoreItems;
 import org.slf4j.Logger;
 
@@ -51,9 +52,12 @@ public class Oddcore {
     public Oddcore(IEventBus modEventBus, ModContainer modContainer){
         modEventBus.addListener(this::commonSetup);
 
-        OddcoreItems.register(modEventBus);
+        NeoForge.EVENT_BUS.register(this);
 
-        modEventBus.addListener(this::commonSetup);
+        OddcoreItems.register(modEventBus);
+        OddcoreBlocks.register(modEventBus);
+
+
 
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
@@ -64,12 +68,11 @@ public class Oddcore {
     }
 
 
+
     // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(OddcoreItems.GUNMETAL);
-        }
-    }
+
+
+
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "gunmetal_ingot",
+  "ingredients": [
+    {
+      "item": "oddcore:gunmetal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "oddcore:gunmetal_ingot"
+  }
+}

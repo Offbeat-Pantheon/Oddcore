@@ -1,0 +1,62 @@
+{
+  "variants": {
+    "axis=x": [
+      {
+        "model": "oddcore:block/grimshale",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "oddcore:block/grimshale_mirrored",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "oddcore:block/grimshale",
+        "x": 90,
+        "y": 90
+      },
+      {
+        "model": "oddcore:block/grimshale_mirrored",
+        "x": 90,
+        "y": 90
+      }
+    ],
+    "axis=y": [
+      {
+        "model": "oddcore:block/grimshale"
+      },
+      {
+        "model": "oddcore:block/grimshale_mirrored"
+      },
+      {
+        "model": "oddcore:block/grimshale",
+        "y": 180
+      },
+      {
+        "model": "oddcore:block/grimshale_mirrored",
+        "y": 180
+      }
+    ],
+    "axis=z": [
+      {
+        "model": "oddcore:block/grimshale",
+        "x": 90
+      },
+      {
+        "model": "oddcore:block/grimshale_mirrored",
+        "x": 90
+      },
+      {
+        "model": "oddcore:block/grimshale",
+        "x": 90,
+        "y": 180
+      },
+      {
+        "model": "oddcore:block/grimshale_mirrored",
+        "x": 90,
+        "y": 180
+      }
+    ]
+  }
+}
