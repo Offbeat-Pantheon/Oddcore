@@ -6,7 +6,7 @@
   "client": [
   ],
   "mixins": [
-    "NoisedBasedChunkGeneratorMixin"
+    "NoiseBasedChunkGeneratorMixin"
   ],
   "injectors": {
     "defaultRequire": 1
