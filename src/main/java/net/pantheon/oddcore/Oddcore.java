@@ -1,5 +1,7 @@
 package net.pantheon.oddcore;
 
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.pantheon.oddcore.block.OddcoreBlocks;
 import net.pantheon.oddcore.item.OddcoreItems;
 import org.slf4j.Logger;
@@ -37,16 +39,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 @Mod(Oddcore.MODID)
 public class Oddcore {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "oddcore";
+    public static final String MODID = "oddcore ";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
-    // Create a Deferred Register to hold Blocks which will all be registered under the "oddcore" namespace
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MODID);
-    // Create a Deferred Register to hold Items which will all be registered under the "oddcore" namespace
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
-    // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "oddcore" namespace
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
-
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
     public Oddcore(IEventBus modEventBus, ModContainer modContainer){
@@ -58,25 +53,27 @@ public class Oddcore {
         OddcoreBlocks.register(modEventBus);
 
 
-
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
-
     private void commonSetup(FMLCommonSetupEvent event) {
 
     }
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
-
-
-    // Add the example block item to the building blocks tab
-
-
-
+    }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         // Do something when the server starts
-        LOGGER.info("HELLO from server starting");
+        LOGGER.info("Greetings from the Pantheon");
+    }
+
+    @EventBusSubscriber(modid = MODID, value = Dist.CLIENT)
+    public static class ClientModEvents {
+        @SubscribeEvent
+        public static void onClientSetup(FMLClientSetupEvent event){
+
+        }
     }
 }

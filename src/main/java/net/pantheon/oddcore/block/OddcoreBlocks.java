@@ -16,8 +16,6 @@ import net.pantheon.oddcore.item.OddcoreItems;
 
 import java.util.function.Supplier;
 
-import static net.pantheon.oddcore.Oddcore.BLOCKS;
-
 public class OddcoreBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(Oddcore.MODID);
