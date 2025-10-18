@@ -2525,7 +2525,7 @@
         "type": "minecraft:condition",
         "if_true": {
           "type": "minecraft:vertical_gradient",
-          "random_name": "oddyssey:grimshale",
+          "random_name": "oddcore:grimshale",
           "true_at_and_below": {
             "absolute": -66
           },
@@ -2536,7 +2536,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:dirt"
+            "Name": "oddcore:grimshale"
           }
         }
       },

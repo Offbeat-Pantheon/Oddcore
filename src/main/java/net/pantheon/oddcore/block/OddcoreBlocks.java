@@ -3,6 +3,8 @@ package net.pantheon.oddcore.block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -17,13 +19,14 @@ import java.util.function.Supplier;
 import static net.pantheon.oddcore.Oddcore.BLOCKS;
 
 public class OddcoreBlocks {
-    public static final DeferredRegister.Blocks Blocks =
+    public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(Oddcore.MODID);
 
     public static final DeferredBlock<Block> GUNMETAL_BLOCK = registerBlock("gunmetal_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.METAL).explosionResistance(1200.0F).mapColor(MapColor.TERRACOTTA_ORANGE)));
-
+    public static final DeferredBlock<Block> GRIMSHALE = registerBlock("grimshale",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE)));
 
 
 
