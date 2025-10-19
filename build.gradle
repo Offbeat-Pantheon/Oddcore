@@ -145,7 +145,11 @@ configurations {
 dependencies {
     implementation "com.teamabnormals:blueprint:1.21.1-8.0.7"
     implementation "com.terraformersmc:biolith-neoforge:3.0.10"
-//    implementation "maven.modrinth:enderscape:neoforge-1.0.9"
+    implementation "maven.modrinth:bountiful-fares:E1HCwB0U"
+    implementation "maven.modrinth:nexuslib:8Lat9f6w"
+    implementation "maven.modrinth:enderscape:K3Vz3uXn"
+    implementation "maven.modrinth:trimmed:1.21-3.0.0+neoforge"
+    implementation "maven.modrinth:yacl:3.8.0+1.21.1-neoforge"
     implementation "maven.modrinth:sodium:mc1.21.1-0.6.13-neoforge"
 }
 
